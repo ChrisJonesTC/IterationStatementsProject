@@ -7,44 +7,105 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
-                //TODO - Read each comment and complete its instruction
+        //Exercise 1
+        //Write 15 times
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");    
+            //}
+            //for (int i = 0; i < 5; i++) 
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");    
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");   
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //        Console.WriteLine($"{i}");
+            //}   
+
+            //Exercise 2
+
+                //DONE  - Read each comment and complete its instruction
                 // like the example below
 
                 //Create a List called "numbers" - DONE!
-                var numbers = new List<int>();
+            var numbers = new List<int>();
             
-            //-----START HERE------------------------------------------
-            //Create a variable of type int and name it num
-            //initialize the variable with a value of 0
-
-
+ 
+                //Create a variable of type int and name it num
+                //initialize the variable with a value of 0
+            var myNumbers = 0;
 
             // Create a do-while loop and use the template below:
-
+            do
             {
-                // Increment num by 1
+                myNumbers++; // Increment num by 1
 
-                // Then add num to the collection - numbers
-                    // Hint: reference num inside of the Add method's parentheses
-                numbers.Add(/* num */);
+                numbers.Add(myNumbers); // Then add num to the collection - numbers
 
-            } // <---- While your variable is less than 100
+                //numbers.Add(/* 0++ */); Hint: reference num inside of the Add method's parentheses
+
+            } while (myNumbers < 100); //<---- While your variable is less than 100
 
 
 
             // Create a while loop
             // <--- While num is less than 200
-            {
-                // Increment num by 1
-                // Then add num to the collection numbers
+           while (myNumbers < 200)
+           {
+                myNumbers++;  // Increment num by 1
+                numbers.Add(myNumbers);  // Then add num to the collection numbers
                     //HINT: copy how this was done in the do while loop
+           }
 
-            }
-
-
-            // This is to show the user that the numbers will start increasing on the console
-            Console.WriteLine("Increase:");
-
+           Console.WriteLine("Increase:"); // This is to show the user that the numbers will start increasing on the console
 
             // Create a foreach loop using the collection - numbers
                 //In the scope of the foreach loop, print each number in numbers
