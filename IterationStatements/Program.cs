@@ -78,9 +78,10 @@ namespace IterationStatements
 
                 //Create a List called "numbers" - DONE!
             var numbers = new List<int>();
-            
-                //Create a variable of type int and name it num
-                //initialize the variable with a value of 0
+
+            //Create a variable of type int and name it num
+            //initialize the variable with a value of 0
+            int num = 0;
             var myNumbers = 0;
            
             // Create a do-while loop and use the template below:
